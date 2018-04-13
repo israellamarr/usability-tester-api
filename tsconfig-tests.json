@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "tests-dist",
+    "allowJs": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es5",
+      "dom"
+    ],
+    "types": [
+      "webdriverio",
+      "jasmine"
+    ]
+  },
+  "include": [ "tests/**/*" ]
+}
